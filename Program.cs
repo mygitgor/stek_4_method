@@ -20,12 +20,12 @@ Console.WriteLine(rut);
 
 int NaturalStepenB(int a, int b)
 {
-    int temp = 0;
-    for (int i = 0, j = 0; i <= a && j <= b; j++, i++)
+    int temp =0;
+    for (int i =0, j =0; i<=a && j<=b; j++, i++)
     {
-        if (i % 2 == 0) temp = j * (i * i * i);
+        if (i % 2 == 0) temp = j*(i* i* i);
         else
-        { temp = j * (i * i * i * i); }
+        {temp = j*(i* i* i* i);}
     }
     return temp;
 }
@@ -43,8 +43,9 @@ int[] ChisloPlusNaMinus(int[] array)
         array[i] = rev * -1;
     }
     return array;
-
-
 }
 int[] array = {1,2,3,4,-8,-9,-6};
 int[] rez = ChisloPlusNaMinus(array);
+
+
+
