@@ -6,7 +6,6 @@ int Rekursia(int valeu)
     while (valeu > 0)
     {
         rez = valeu / 2 % 2;
-
     }
     return rez;
 }
@@ -23,7 +22,7 @@ int NaturalStepenB(int a, int b)
     int temp =0;
     for (int i =0, j =0; i<=a && j<=b; j++, i++)
     {
-        if (i % 2 == 0) temp = j*(i* i* i);
+        if (i % 2==0) temp = j*(i* i* i);
         else
         {temp = j*(i* i* i* i);}
     }
